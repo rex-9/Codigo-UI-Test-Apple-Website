@@ -2,6 +2,7 @@
 
 .answers {
   @include center($direction: column, $justify: start);
+
   padding: 10px $nav-y-padding;
 }
 

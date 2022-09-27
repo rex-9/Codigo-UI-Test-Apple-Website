@@ -21,7 +21,7 @@ $more-text: #636365;
 @mixin button($bg: transparent, $text: $text) {
   background-color: $bg;
   color: $text;
-  font-family: "San Francisco Bold", serif;;
+  font-family: "San Francisco Bold", serif;
   font-size: 16px;
   border: none;
   border-radius: 20px;

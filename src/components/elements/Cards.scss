@@ -2,11 +2,13 @@
 
 .cards {
   @include center;
+
   margin: 50px 0;
 }
 
 .hCard {
   @include center;
+
   height: 540px;
   width: 85%;
   background-color: $about-bg;
@@ -16,7 +18,7 @@
 
 .vCard button,
 .hCard button {
-  @include button ($bg: $nav-bg, $text: $text)
+  @include button ($bg: $nav-bg, $text: $text);
 }
 
 .vCard button:hover,
@@ -41,6 +43,7 @@
 
 .vCard {
   @include center;
+
   width: 640px;
   height: 840px;
   background-color: $about-bg;

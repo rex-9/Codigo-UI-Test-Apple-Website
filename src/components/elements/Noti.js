@@ -18,7 +18,7 @@ const Noti = () => {
       <div className="noti" style={toggle ? show : hide}>
         <p>Choose another country or region to see content specific to your location and shop online</p>
         <select>
-          <option value="Singapore" key="Singapore">&#10004; Singapore</option>
+          <option value="Korea" key="Korea">&#10004; Korea</option>
           <option value="Others" key="Others">Other Country</option>
         </select>
         <button className="continue" type="button">Continue</button>

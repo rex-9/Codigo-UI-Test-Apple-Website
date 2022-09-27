@@ -34,6 +34,7 @@
 
 .originals {
   @include center($align: start, $justify: center, $direction: column);
+
   width: 100vw;
   height: 85vh;
   padding-left: 200px;
@@ -42,11 +43,12 @@
 
 .originals h1 {
   font-size: 90px;
-  font-family: 'San Francisco Bold';
+  font-family: 'San Francisco Bold', serif;
 }
 
 .originals p {
   @include center;
+
   font-size: 20px;
 }
 
@@ -60,8 +62,9 @@
 
 .lines {
   @include center($justify: center);
+
   font-size: 60px;
-  font-family: 'San Francisco Bold';
+  font-family: 'San Francisco Bold', serif;
   color: $text;
   background-color: black;
   height: 100vh;
@@ -70,6 +73,7 @@
 
 .plans {
   @include center;
+
   background-color: black;
   color: $text;
   width: 100vw;
@@ -92,7 +96,7 @@
 
 .plans p {
   width: 300px;
-  color: $about-text
+  color: $about-text;
 }
 
 .plans button {
@@ -145,8 +149,9 @@
   0% {
     transform: translate3d(0, 0, 0);
   }
+
   100% {
-    transform: translate3d(-1000px, 0px, -1000px); /* The image width */
+    transform: translate3d(-1000px, 0, -1000px); /* The image width */
   }
 }
 
@@ -154,7 +159,8 @@
   0% {
     transform: translate3d(0, 0, 0);
   }
+
   100% {
-    transform: translate3d(-700px, 0px, -1000px); /* The image width */
+    transform: translate3d(-700px, 0, -1000px); /* The image width */
   }
 }
