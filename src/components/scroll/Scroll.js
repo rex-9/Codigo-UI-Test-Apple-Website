@@ -3,6 +3,7 @@ import {
 } from 'react-scroll-motion';
 import './Scroll.scss';
 import tv from '../../assets/tv.png';
+import amv from '../../assets/amv.mp4';
 import { plans } from '../../data';
 
 const Scroll = () => {
@@ -10,7 +11,12 @@ const Scroll = () => {
 
   return (
     <>
-      <div className="bg" />
+      {/* <div className="bg" /> //commented background image */}
+      <div className="fullscreen-bg">
+        <video loop muted autoPlay poster="img/videoframe.jpg" className="fullscreen-bg__video">
+          <source src={amv} type="video/mp4" />
+        </video>
+      </div>
       <ScrollContainer>
         <ScrollPage>
           <Animator animation={batch(MoveOut(0, -500))}>

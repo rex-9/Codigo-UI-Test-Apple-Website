@@ -1,16 +1,35 @@
 @import '../../variables';
 
-.bg {
-  background-image: url('../../assets/hdtv.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+// when using bg image the image doesn't move with the scroll
+// .bg {
+//   background-image: url('../../assets/hdtv.png');
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-size: cover;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   z-index: -1;
+//   height: 270vh;
+//   width: 100vw;
+// }
+
+.fullscreen-bg {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  height: 270vh;
   width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .originals {
@@ -18,7 +37,6 @@
   width: 100vw;
   height: 85vh;
   padding-left: 200px;
-  background-color: rgb(111, 79, 79, 0.3);
   color: $text;
 }
 
