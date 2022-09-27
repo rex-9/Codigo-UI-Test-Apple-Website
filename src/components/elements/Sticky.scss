@@ -13,6 +13,13 @@
   padding: 10px $nav-y-padding;
 }
 
+@media (max-width: 650px) {
+  .sticky {
+    padding: 10px 20px;
+    width: 150vw;
+  }
+}
+
 .sticky button {
   background-color: $text;
   border-radius: 12px;

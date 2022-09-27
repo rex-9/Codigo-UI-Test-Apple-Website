@@ -9,6 +9,13 @@
   font-size: 12px;
 }
 
+@media (max-width: 650px) {
+  .nav {
+    padding: 10px 20px;
+    width: 150vw;
+  }
+}
+
 .nav span:hover {
   color: $text;
   cursor: pointer;

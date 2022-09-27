@@ -7,6 +7,19 @@
   padding: 10px $nav-y-padding;
 }
 
+@media (max-width: 1000px) {
+  .about {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    padding: 10px 70px;
+    width: 100vw;
+}
+}
+
 .breadcrumb {
   @include center($justify: start);
 
