@@ -35,7 +35,7 @@ To get a local copy up and running:
 
 ### Deployment
 
-Here is the online version of [AppleUI](https://AppleUI.netlify.app/)
+Here is the online version of [AppleUI](https://codigo-ui-test-apple-website.vercel.app/)
 
 ## Rex
 
@@ -45,11 +45,6 @@ Here is the online version of [AppleUI](https://AppleUI.netlify.app/)
 👤 - Facebook: [@htetnaing0814](https://www.facebook.com/htetnaing0814)<br>
 👤 - Angelist: [@rex9](https://angel.co/u/rex9)<br>
 
-## Bahoz
-
-👤 - Github: [Bahoz Ali](https://github.com/bahoz-ali/)<br>
-👤 - LinkedIn: [Bahoz Ali](https://www.linkedin.com/in/bahoz-ali/)<br>
-👤 - Angelist: [Htet Naing](https://angel.co/u/bahoz-ali)<br>
 
 ## 🤝 Contributions
 
@@ -63,7 +58,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-[Microverse](https://bit.ly/MicroverseTN)
+### Codigo
 
 ## 📝 License
 
