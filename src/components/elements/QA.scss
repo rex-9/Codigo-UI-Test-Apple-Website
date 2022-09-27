@@ -1,0 +1,36 @@
+@import '../../variables';
+
+.answers {
+  @include center($direction: column, $justify: start);
+  padding: 10px $nav-y-padding;
+}
+
+.answers hr {
+  border: 0.1px solid $noti-bg;
+  width: 100%;
+}
+
+.q {
+  cursor: pointer;
+}
+
+.a {
+  padding: 20px 0;
+}
+
+.qa header {
+  font-size: 80px;
+  font-family: 'San Francisco Bold', serif;
+  text-align: center;
+  margin: 100px 0 20px 0;
+  line-height: 1;
+}
+
+.qa button {
+  background-color: transparent;
+  width: 100%;
+  text-align: start;
+  border: none;
+  border-radius: 0;
+  font-size: 25px;
+}

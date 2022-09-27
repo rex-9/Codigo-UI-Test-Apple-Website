@@ -1,0 +1,43 @@
+$nav-y-padding: 250px;
+$noti-bg: #424245;
+$text: #fff;
+$noti-button: #0071e3;
+$noti-close: #7d7d7f;
+$nav-bg: #000;
+$nav-text: #bcbcbc;
+$sticky-bg: #18181a;
+$about-bg: #f5f5f7;
+$about-text: #8d8d91;
+$more-text: #636365;
+
+@mixin center($direction: row, $justify: center, $align: center) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin button($bg: transparent, $text: $text) {
+  background-color: $bg;
+  color: $text;
+  font-family: "San Francisco Bold", serif;;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "San Francisco Regular";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+@font-face {
+  font-family: "San Francisco Bold";
+  font-weight: 700;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}

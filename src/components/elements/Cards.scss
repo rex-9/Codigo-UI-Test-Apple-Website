@@ -1,0 +1,50 @@
+@import '../../variables';
+
+.cards {
+  @include center;
+  margin: 50px 0;
+}
+
+.hCard {
+  @include center;
+  height: 540px;
+  width: 85%;
+  background-color: $about-bg;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.vCard button,
+.hCard button {
+  @include button ($bg: $nav-bg, $text: $text)
+}
+
+.vCard button:hover,
+.hCard button:hover {
+  background-color: $noti-bg;
+}
+
+.vCard a,
+.hCard a {
+  text-decoration: none;
+  color: $noti-button;
+  font-size: 16px;
+}
+
+.vCard header,
+.hCard header {
+  font-size: 40px;
+  font-family: 'San Francisco Bold', serif;
+  text-align: center;
+  line-height: 1;
+}
+
+.vCard {
+  @include center;
+  width: 640px;
+  height: 840px;
+  background-color: $about-bg;
+  border-radius: 15px;
+  margin: 20px 10px;
+  padding: 20px 0 0 0;
+}

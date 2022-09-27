@@ -1,0 +1,50 @@
+@import '../../variables';
+
+.noti {
+  @include center($justify: space-around);
+
+  background-color: $noti-bg;
+  color: $text;
+  font-size: 12px;
+  padding: 18px $nav-y-padding;
+}
+
+select {
+  width: 300px;
+  background-color: $noti-bg;
+  color: $text;
+  border: 1px solid $text;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+select:focus {
+  border: 2px solid $noti-button;
+}
+
+.continue {
+  background-color: $noti-button;
+  border: none;
+  color: $text;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 8px 10px;
+}
+
+.close {
+  font-size: 24px;
+  color: $noti-close;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 800px) {
+  .noti {
+    padding: 10px;
+  }
+}
